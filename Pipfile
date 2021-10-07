@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sqlalchemy = "*"
+alembic = "*"
+fastapi = "*"
+uvicorn = "*"
+psycopg2-binary = "*"
+passlib = "*"
+pyjwt = "*"
+bcrypt = "*"
+python-dotenv = "*"
+typer = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
